@@ -14,7 +14,7 @@
   "type": "commonjs",
   "dependencies": {
     "bootstrap": "^5.3.7",
-    "puppeteer": "^24.10.2",
+    "puppeteer": "^24.11.2",
     "xlsx": "^0.18.5"
   }
 }
