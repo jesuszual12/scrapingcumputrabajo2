@@ -12,7 +12,6 @@ const path = require("path");
   const browser = await puppeteer.launch({
     headless: false,
     slowMo: 300,
-    defaultViewport: null,
   });
 
   const page = await browser.newPage();
@@ -48,12 +47,20 @@ const path = require("path");
           const datos = await tab.evaluate(() => {
             const textoSelector = (sel) => document.querySelector(sel)?.innerText.trim() || "No disponible";
 
+          const ubicacion = textoSelector("main.detail_fs > div.container > p.fs16")
+          const empresa_ubi = ubicacion.split(" - ");
+          const location = empresa_ubi[1];
+          const empresa = empresa_ubi[0];
+
+          const descripcion = textoSelector("div.container > div.box_detail.fl.w100_m > div.mb40.pb40.bb1 > p.mbB");
+          const descrip = descripcion.replace(/\n/g, "").trim();
+
             return {
               titulo: textoSelector("h1"),
-              empresa: textoSelector('[data-qa="vacancy-company-name"]') || textoSelector(".wt-display-inline"),
-              ubicacion: textoSelector('[data-qa="vacancy-location"]') || textoSelector(".wt-pre-line"),
+              empresa: empresa, 
+              ubicacion: location,
               salario: (document.body.innerText.match(/\$\s*[\d.,]+/) || ["No especificado"])[0],
-              descripcion: textoSelector(".bDesc, .box_detail, .bVew").slice(0, 1000),
+              descripcion: descrip,
               url: window.location.href
             };
           });
