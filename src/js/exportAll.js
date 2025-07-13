@@ -1,71 +1,70 @@
+// src/js/exportAll.js
 const fs = require("fs");
+const path = require("path");
 const { Parser } = require("json2csv");
 const XLSX = require("xlsx");
 const PDFDocument = require("pdfkit");
 
-async function exportAll(data, nombreBase = "trabajos") {
-  if (!data || !data.length) {
+const exportAll = async (data, nombreBase = "trabajos") => {
+  if (!data.length) {
     console.warn("⚠️ No hay datos para exportar.");
     return;
   }
 
-  // 1. JSON
-  fs.writeFileSync(`${nombreBase}.json`, JSON.stringify(data, null, 2), "utf-8");
-
-  // 2. CSV
-  try {
-    const parser = new Parser();
-    const csv = parser.parse(data);
-    fs.writeFileSync(`${nombreBase}.csv`, csv, "utf-8");
-  } catch (err) {
-    console.error("❌ Error exportando CSV:", err.message);
+  const carpetaDestino = path.join(__dirname, "../../frontend/tabla");
+  if (!fs.existsSync(carpetaDestino)) {
+    fs.mkdirSync(carpetaDestino, { recursive: true });
   }
 
-  // 3. Excel
-  try {
-    const ws = XLSX.utils.json_to_sheet(data);
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "Trabajos");
-    XLSX.writeFile(wb, `${nombreBase}.xlsx`);
-  } catch (err) {
-    console.error("❌ Error exportando Excel:", err.message);
-  }
+  // JSON
+  fs.writeFileSync(
+    path.join(carpetaDestino, `${nombreBase}.json`),
+    JSON.stringify(data, null, 2),
+    "utf-8"
+  );
 
-  // 4. TXT
-  try {
-    let contenido = "";
-    data.forEach((item, i) => {
-      contenido += `--- Trabajo ${i + 1} ---\n`;
-      for (let key in item) {
-        contenido += `${key.toUpperCase()}: ${item[key]}\n`;
-      }
-      contenido += "\n";
-    });
-    fs.writeFileSync(`${nombreBase}.txt`, contenido, "utf-8");
-  } catch (err) {
-    console.error("❌ Error exportando TXT:", err.message);
-  }
+  // CSV
+  const parser = new Parser();
+  const csv = parser.parse(data);
+  fs.writeFileSync(path.join(carpetaDestino, `${nombreBase}.csv`), csv, "utf-8");
 
-  // 5. PDF
-  try {
-    const doc = new PDFDocument();
-    doc.pipe(fs.createWriteStream(`${nombreBase}.pdf`));
-    doc.fontSize(18).text("Listado de Trabajos", { align: "center" }).moveDown();
+  // TXT
+  const txt = data
+    .map((t, i) =>
+      `--- Trabajo ${i + 1} ---\nTítulo: ${t.titulo}\nEmpresa: ${t.empresa}\nUbicación: ${t.ubicacion}\nSalario: ${t.salario}\nDescripción: ${t.descripcion}\nURL: ${t.url}`
+    )
+    .join("\n\n");
+  fs.writeFileSync(path.join(carpetaDestino, `${nombreBase}.txt`), txt, "utf-8");
 
-    data.forEach((item, i) => {
-      doc.fontSize(12).text(`Trabajo ${i + 1}`, { underline: true });
-      for (let key in item) {
-        doc.fontSize(10).text(`${key}: ${item[key]}`);
-      }
-      doc.moveDown();
-    });
+  // Excel
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Trabajos");
+  XLSX.writeFile(wb, path.join(carpetaDestino, `${nombreBase}.xlsx`));
 
-    doc.end();
-  } catch (err) {
-    console.error("❌ Error exportando PDF:", err.message);
-  }
+  // PDF
+  const doc = new PDFDocument({ margin: 30 });
+  const pdfPath = path.join(carpetaDestino, `${nombreBase}.pdf`);
+  doc.pipe(fs.createWriteStream(pdfPath));
 
-  console.log("✅ Exportaciones completadas (CSV, JSON, Excel, TXT, PDF)");
-}
+  doc.fontSize(20).text("Ofertas de Trabajo", { align: "center" }).moveDown();
+
+  data.forEach((t, i) => {
+    doc
+      .fontSize(12)
+      .text(`📌 Trabajo ${i + 1}:`, { underline: true })
+      .text(`Título: ${t.titulo}`)
+      .text(`Empresa: ${t.empresa}`)
+      .text(`Ubicación: ${t.ubicacion}`)
+      .text(`Salario: ${t.salario}`)
+      .text(`Descripción: ${t.descripcion}`)
+      .text(`URL: ${t.url}`)
+      .moveDown();
+  });
+
+  doc.end();
+
+  console.log(`✅ Archivos exportados en: ${carpetaDestino}`);
+};
 
 module.exports = exportAll;
