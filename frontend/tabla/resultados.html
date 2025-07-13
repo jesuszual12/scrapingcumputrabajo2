@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resultados de Trabajos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .job-title {
+      padding: 8px 12px;
+      border-bottom: 1px solid #ccc;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabajos Encontrados</h1>
+  <div id="jobsList"></div>
+
+  <script>
+    const jobsList = document.getElementById('jobsList');
+    const trabajosData = JSON.parse(localStorage.getItem('trabajosData')) || [];
+
+    if (trabajosData.length === 0) {
+      jobsList.innerHTML = '<p>No hay trabajos para mostrar.</p>';
+    } else {
+      const html = trabajosData.map(trabajo => 
+        `<div class="job-title">${trabajo.titulo}</div>`
+      ).join('');
+      jobsList.innerHTML = html;
+    }
+  </script>
+</body>
+</html>
