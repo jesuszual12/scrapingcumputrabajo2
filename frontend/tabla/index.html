@@ -9,19 +9,24 @@
 </head>
 <body class="bg-gray-100 p-6">
   <div class="max-w-6xl mx-auto">
-    <h1 class="text-2xl font-bold mb-4">Comparativa de Salarios</h1>
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-3xl font-bold text-gray-800">Ofertas de trabajo</h1>
+      <a href="../buscador/design.html" class="text-blue-600 hover:underline text-sm">
+        ← Volver a buscar
+      </a>
+    </div>
 
     <!-- Tabs -->
     <div class="flex space-x-4 mb-4">
-      <button class="tab-button bg-blue-200 px-4 py-2 rounded">Todos</button>
+      <button class="tab-button bg-blue-500 text-white px-4 py-2 rounded">Todos</button>
       <button class="tab-button px-4 py-2 rounded bg-gray-200">Salarios Altos</button>
       <button class="tab-button px-4 py-2 rounded bg-gray-200">Salarios Bajos</button>
     </div>
 
     <!-- Tabla: Todos -->
     <div class="select-content">
-      <table class="min-w-full bg-white shadow rounded">
-        <thead class="bg-gray-200">
+      <table class="min-w-full bg-white shadow rounded overflow-hidden">
+        <thead class="bg-blue-100 text-gray-800">
           <tr>
             <th class="px-5 py-2 text-left">Título</th>
             <th class="px-5 py-2 text-left">Empresa</th>
@@ -37,7 +42,7 @@
     <!-- Tabla: Salarios Altos -->
     <div class="select-content hidden">
       <table class="min-w-full bg-white shadow rounded">
-        <thead class="bg-gray-200">
+        <thead class="bg-green-100 text-gray-800">
           <tr>
             <th class="px-5 py-2 text-left">Título</th>
             <th class="px-5 py-2 text-left">Empresa</th>
@@ -53,7 +58,7 @@
     <!-- Tabla: Salarios Bajos -->
     <div class="select-content hidden">
       <table class="min-w-full bg-white shadow rounded">
-        <thead class="bg-gray-200">
+        <thead class="bg-red-100 text-gray-800">
           <tr>
             <th class="px-5 py-2 text-left">Título</th>
             <th class="px-5 py-2 text-left">Empresa</th>
