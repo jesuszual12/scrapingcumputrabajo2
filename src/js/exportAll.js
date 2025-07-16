@@ -11,10 +11,18 @@ const exportAll = async (data, nombreBase = "trabajos") => {
     return;
   }
 
-  const carpetaDestino = path.join(__dirname, "../../frontend/tabla");
+  const carpetaDestino = path.join(__dirname, "../../data");
   if (!fs.existsSync(carpetaDestino)) {
     fs.mkdirSync(carpetaDestino, { recursive: true });
   }
+
+  // Limpiar archivos anteriores en la carpeta destino
+  const formatos = [".json", ".csv", ".txt", ".xlsx", ".pdf"];
+  fs.readdirSync(carpetaDestino).forEach((file) => {
+    if (formatos.includes(path.extname(file))) {
+      fs.unlinkSync(path.join(carpetaDestino, file));
+    }
+  });
 
   // JSON
   fs.writeFileSync(
@@ -26,15 +34,28 @@ const exportAll = async (data, nombreBase = "trabajos") => {
   // CSV
   const parser = new Parser();
   const csv = parser.parse(data);
-  fs.writeFileSync(path.join(carpetaDestino, `${nombreBase}.csv`), csv, "utf-8");
+  fs.writeFileSync(
+    path.join(carpetaDestino, `${nombreBase}.csv`),
+    csv,
+    "utf-8"
+  );
 
   // TXT
   const txt = data
-    .map((t, i) =>
-      `--- Trabajo ${i + 1} ---\nTítulo: ${t.titulo}\nEmpresa: ${t.empresa}\nUbicación: ${t.ubicacion}\nSalario: ${t.salario}\nDescripción: ${t.descripcion}\nURL: ${t.url}`
+    .map(
+      (t, i) =>
+        `--- Trabajo ${i + 1} ---\nTítulo: ${t.titulo}\nEmpresa: ${
+          t.empresa
+        }\nUbicación: ${t.ubicacion}\nSalario: ${t.salario}\nDescripción: ${
+          t.descripcion
+        }\nURL: ${t.url}`
     )
     .join("\n\n");
-  fs.writeFileSync(path.join(carpetaDestino, `${nombreBase}.txt`), txt, "utf-8");
+  fs.writeFileSync(
+    path.join(carpetaDestino, `${nombreBase}.txt`),
+    txt,
+    "utf-8"
+  );
 
   // Excel
   const ws = XLSX.utils.json_to_sheet(data);

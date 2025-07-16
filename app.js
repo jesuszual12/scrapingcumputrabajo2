@@ -74,7 +74,7 @@ const exportAll = require("./src/js/exportAll");
       pagina++;
     }
 
-    await exportAll(trabajos, `trabajos_${busqueda}`);
+    await exportAll(trabajos, `trabajos`);
 
   } catch (error) {
     console.error("❌ Error durante el scraping:", error);

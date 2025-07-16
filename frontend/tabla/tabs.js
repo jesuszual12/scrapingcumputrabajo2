@@ -1,4 +1,4 @@
-fetch('./trabajos_next.json')
+fetch('../../data/trabajos.json')
   .then(res => res.json())
   .then(trabajos => {
     const parseSalario = (s) => {
