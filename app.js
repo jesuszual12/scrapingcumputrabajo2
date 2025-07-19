@@ -114,13 +114,9 @@ app.post("/buscar", async (req, res) => {
       }
 
       await exportAll(trabajos, `trabajos`);
-      res.status(200).send({
-        message: "::::::::::::: Scrapeo realizado con exito ::::::::::::::"
-      })
+      res.status(200).json({success: true })
     } catch (error) {
-      res.status(500).send({
-        message: `Error: ${error}`,
-      })
+      res.status(500).json({success: false })
       console.error("❌ Error durante el scraping:", error);
     }
 
