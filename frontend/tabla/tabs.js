@@ -12,6 +12,7 @@ fetch('../../data/trabajos.json')
     const todosTbody = document.getElementById("TodosSalariosTbody");
     const mayoresTbody = document.getElementById("mayorSalarioTbody");
     const menoresTbody = document.getElementById("menorSalarioTbody");
+//    const Trabajoscerca = document.getElementById("cerca_de_mi");
 
     const renderFila = (t) => `
       <tr class="border-b">
