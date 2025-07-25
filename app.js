@@ -30,18 +30,26 @@ app.post("/buscar", async (req, res) => {
     console.log(`:::::::: Buscando trabajos de "${cargo}" ::::::::::`);
 
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 300,
     });
 
     const page = await browser.newPage();
+    
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    );
+    await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, "webdriver", { get: () => false });
+    });
+
+
     let trabajos = [];
     let pagina = 1;
 
     try {
       while (true) {
         const url = pagina === 1 ? baseURL : `${baseURL}?p=${pagina}`;
-        console.log(`📄 Visitando página de listados: ${url}`);
 
         await page.goto(url, { waitUntil: "domcontentloaded" });
 
@@ -56,15 +64,10 @@ app.post("/buscar", async (req, res) => {
         );
 
         if (enlaces.length === 0) {
-          console.log(
-            "🚫 No hay más ofertas en esta página, fin del scraping."
-          );
           break;
         }
 
         for (const enlace of enlaces) {
-          console.log(`🔍 Abriendo oferta: ${enlace}`);
-
           try {
             const tab = await browser.newPage();
             await tab.goto(enlace, {
@@ -113,10 +116,12 @@ app.post("/buscar", async (req, res) => {
         pagina++;
       }
 
+      console.log(`se encontraron: ${trabajos.length} trabajos`);
+      console.log("Fin del scrapping");
       await exportAll(trabajos, `trabajos`);
-      res.status(200).json({success: true })
+      res.status(200).json({ success: true });
     } catch (error) {
-      res.status(500).json({success: false })
+      res.status(500).json({ success: false });
       console.error("❌ Error durante el scraping:", error);
     }
 

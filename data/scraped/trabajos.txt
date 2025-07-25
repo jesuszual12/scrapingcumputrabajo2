@@ -1,0 +1,47 @@
+--- Trabajo 1 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fullstack-en-san-pedro-tlaquepaque-7B5D20BFE204246961373E686DCF3405#lc=ListOffers-Score3-0
+
+--- Trabajo 2 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programadora-temporal-en-morelia-DA3519AF994F093961373E686DCF3405#lc=ListOffers-Score0-1
+
+--- Trabajo 3 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-work-from-home-shopify-engineer-ref-0176-en-aguascalientes-2F8573081BEEE1A961373E686DCF3405#lc=ListOffers-Score0-2
+
+--- Trabajo 4 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-trabajo-desde-casa-ingeniero-vuejs-ref-0255-en-miguel-hidalgo-410F255D92AE8E8661373E686DCF3405#lc=ListOffers-Score0-3
+
+--- Trabajo 5 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-trabajo-desde-casa-desarrollador-de-vuejs-ref-0255-en-benito-juarez-7A14BBB695EF0B0C61373E686DCF3405#lc=ListOffers-Score0-4
+
+--- Trabajo 6 ---
+Título: 403 Forbidden
+Empresa: No disponible
+Ubicación: undefined
+Salario: No especificado
+Descripción: No disponible
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programadora-temporal-en-morelia-4B58ECD317F4993161373E686DCF3405#lc=ListOffers-Score0-5

@@ -51,7 +51,7 @@ function renderFila(t) {
 // Carga datos de JSON y prepara los trabajos
 async function cargarDatos() {
   try {
-    const trabajosRes = await fetch("../../data/trabajos.json");
+    const trabajosRes = await fetch("../../data/scraped/trabajos.json");
     trabajos = await trabajosRes.json();
 
     const codigosRes = await fetch("../../data/codigosP.json");
@@ -141,7 +141,7 @@ function mostrarTrabajosCercanos(latUsuario, lonUsuario) {
     mapa = null;
   }
 
-  mapa = L.map(divMapa).setView([latUsuario, lonUsuario], 12);
+  mapa = L.map(divMapa).setView([latUsuario, lonUsuario], 20);
 
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors",

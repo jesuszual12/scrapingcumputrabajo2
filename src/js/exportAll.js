@@ -11,7 +11,7 @@ const exportAll = async (data, nombreBase = "trabajos") => {
     return;
   }
 
-  const carpetaDestino = path.join(__dirname, "../../data");
+  const carpetaDestino = path.join(__dirname, "../../data/scraped");
   if (!fs.existsSync(carpetaDestino)) {
     fs.mkdirSync(carpetaDestino, { recursive: true });
   }
