@@ -174,10 +174,25 @@ function mostrarTrabajosCercanos(latUsuario, lonUsuario) {
           L.marker([match.lat, match.lng])
             .addTo(mapa)
             .bindPopup(
-              `<div style="min-width:180px; font-family: Arial, sans-serif;"> 
-                 <h3 style="margin:0 0 5px 0; font-size:16px; font-weight:bold; color:#2c3e50;">${trabajo.titulo}</h3>
-                 <p style="margin:2px 0; font-size:14px; color:#34495e;">Latitud: ${match.lat.toFixed(6)}</p>
-                 <p style="margin:2px 0; font-size:14px; color:#34495e;">Longitud: ${match.lng.toFixed(6)}</p>
+              `<div style="min-width:220px; font-family: Arial, sans-serif;"> 
+                 <h3 style="margin:0 0 6px 0; font-size:16px; font-weight:bold; color:#2c3e50;">
+                   ${trabajo.titulo}
+                 </h3>
+                 <p style="margin:2px 0; font-size:14px; color:#34495e;">
+                   <strong>Empresa:</strong> ${trabajo.empresa || 'No disponible'}
+                 </p>
+                 <p style="margin:2px 0; font-size:14px; color:#34495e;">
+                   <strong>Salario:</strong> ${trabajo.salario || 'No especificado'}
+                 </p>
+                 <p style="margin:2px 0; font-size:14px; color:#34495e;">
+                   <strong>Ubicación:</strong> ${trabajo.ubicacion || 'No disponible'}
+                 </p>
+                 <p style="margin:2px 0; font-size:14px; color:#34495e;">
+                   <strong>Latitud:</strong> ${match.lat.toFixed(6)}
+                 </p>
+                 <p style="margin:2px 0; font-size:14px; color:#34495e;">
+                   <strong>Longitud:</strong> ${match.lng.toFixed(6)}
+                 </p>
                </div>`
             );
         }
