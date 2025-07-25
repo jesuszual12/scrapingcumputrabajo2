@@ -1,47 +1,127 @@
 --- Trabajo 1 ---
-Título: Desarrollador/a FullStack
-Empresa: Holcim Apasco
-Ubicación: San Pedro Tlaquepaque, Jalisco
-Salario: $ 20,000.00
-Descripción: ¿QUIÉN ES HOLCIM?Somos el líder mundial en soluciones innovadoras y sostenibles para la construcción mediante cuatro segmentos de negocio: cemento, concreto/hormigón premezclado, agregados, soluciones y productos.Nuestro objetivo es impulsar la construcción circular para construir más con menos. Gracias a nuestro enfoque en la reducción de emisiones de CO2, cuidado al medio ambiente, apoyo a las comunidades y desarrollo de nuestra gente, hemos logrado que nuestros 70.000 colaboradores y colaboradoras en todo el mundo sienten una gran pasión por construir progreso para las personas y el planeta, creando mejores soluciones y experiencias para sus clientes, comunidades y equipos.¡TRABAJA CON NOSOTROS!Tendrás la oportunidad de compartir la pasión que tenemos por nuestro planeta, aportar perspectivas innovadoras, dentro de un entorno dinámico y retador, que promueve la diversidad e inclusión.Porque solo si trabajamos juntos en una cultura en la que todos prosperamos, podremos construir el mundo en el que todos queremos vivir.TE ESTAMOS BUSCANDO: Desarrollador/a FullStack!Serás responsable de diseñar, desarrollar y mantener aplicaciones web completas (frontend y backend), asegurando interfaces atractivas, usabilidad, seguridad y alto rendimiento.Tus principales retos serán:Crear interfaces de usuario modernas, responsivas y funcionales.Desarrollar APIs robustas e integraciones con servicios externos.Implementar y administrar bases de datos relacionales y no relacionales.Asegurar la autenticación y seguridad de las aplicaciones.Integrar plataformas de pago y otros servicios de terceros.Colaborar con equipos multidisciplinarios en entornos ágiles.Lugar de trabajo: Carretera a Tlaquepaque Jalisco, San Martin de las flores.Requisitos indispensables:Licenciatura o ingeniería en sistemas, desarrollo de software o afín.Experiencia comprobable en desarrollo Full Stack.Dominio de HTML, CSS, JavaScript y frameworks como React, Angular o VuejsConocimientos en backend con Nodejs, Python o Java.Manejo de bases de datos relacionales (SQL Server, PostgreSQL) y no relacionales (MongoDB, Firebase).Experiencia con integración de APIs REST y GraphQL.Uso de servicios en la nube (AWS, GCP) y control de versiones con Git/GitHub.Inglés B2.Requisitos deseados:Experiencia en entornos de retail, e commerce o mayoristas (B2B/B2C).Familiaridad con plataformas de pago.Conocimientos en backend con Nodejs, Python o Java.¡NO TE PIERDAS LA OPORTUNIDAD DE SER PARTE DE NUESTRO EQUIPO!¡CONSTRUYE PROGRESO CON NOSOTROS!
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrolladora-fullstack-en-san-pedro-tlaquepaque-7B5D20BFE204246961373E686DCF3405#lc=ListOffers-Score3-0
+Título: Barrendero/A - Turno Nocturno o Vespertino
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 5,437
+Descripción: Buscamos tu talento como Barrendero/a para turno Nocturno o Vespertino:Zona de trabajo: Central de abastos IztapalapaBarrenderos Nocturno (Horario 5 pm a 5 am)Barrenderos Vespertino (Horario de 10 am a 7:00 pm)Lunes a domingo descanso entre semana*Contratacion inmediata*Contar con documentacion (Acta de nacimiento, Comprobante de clabe interbancaria es decir cuenta de banco, nss, curp, ine, constancia de situacion fiscal y comprobante de domicilo)Agenda hoy mismo comunicate al 5 5 796 9 59 09
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrenderoa-turno-nocturno-o-vespertino-en-iztapalapa-8EFACEA56D1028F261373E686DCF3405#lc=ListOffers-Score4-0
 
 --- Trabajo 2 ---
-Título: Programador/a - Temporal
-Empresa: Caja Morelia Valladolid
-Ubicación: Morelia, Michoacán
-Salario: $ 7,209
-Descripción: Empresa Mexicana dedicada al servicio Financiero con 59 años de historia y presencia nacional, Caja Morelia Valladolid solicita personal.PROGRAMADOR TEMPORALOFECEMOS:-Sueldo base.-Prestaciones superiores a las de Ley.-Vales de despensa 8% del sueldo bruto mensual.-Fondo de ahorro del 13% del sueldo bruto mensual.-Seguro de vida.-Prima vacacional 100%.-30 días de aguinaldo desde el primer año.-Uniformes.-Opciones a becas.- Y mucho más...REQUISITOS:•Licenciatura o ingeniería Titulado en Informática, Sistemas Computacionales, TIC’s a fines.•Dominio de bases de datos SQL SERVER•Dominio de .NET C# o JAVA•Dominio Programación web (Html5, Maquetado CSS, Javascript, ECMAScript 2015+, VueJS2)•Dominio API Rest y SOAP (Net Core, nodeJS)•Dominio Programación móvil (Android, IOS, híbrido o nativo)•Manejo de Control de Versiones GIT.•Manejo de Plataforma JIRA & Confluence•Deseable Delphi 6Horario de trabajo: Lunes a Viernes de 8:30 am a 5 pm y Sábados de 8:30 am a 2 pmInteresados postularse por este medio
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programadora-temporal-en-morelia-DA3519AF994F093961373E686DCF3405#lc=ListOffers-Score0-1
+Título: Barrendero Central de Abastos - Iztapalapa
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante mercado está en busca de tu talentoSOLICITA BARRENDERO MATUTINO O NOCTURNOOFRECEMOS:Sueldo de $8,0000 a $10,000 neto mensualUniforme gratuitoPrestaciones de leyREQUISITOS:Experiencia no necesariaPrimaria concluidaDocumentos completos en copiaLunes a Domingo de 5pm a 5am o 10am a 7pm, 1 descanso rolado a la semanaZona de trabajo: Central de abastos Iztapalapa, CDMX5511 4122 82Si estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrendero-central-de-abastos-iztapalapa-en-iztapalapa-D4CB1C1EE38BEE9A61373E686DCF3405#lc=ListOffers-Score4-1
 
 --- Trabajo 3 ---
-Título: Work From Home Shopify Engineer / Ref. 0176
-Empresa: BairesDev LLC
-Ubicación: Aguascalientes, Aguascalientes
-Salario: $ 3,700
-Descripción: At BairesDev®, weve been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.Our diverse 4,000+ team, composed of the worlds Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.When you apply for this position, youre taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.Shopify Engineer at BairesDevWe are looking for a Shopify Engineer to join our Development team and help the client take its eCommerce platform to the next level. The Shopify Engineer will be responsible for designing, developing, and maintaining the clients Shopify website and integrations with other systems. This is an excellent opportunity for those professionals looking to develop in one of the fastest-growing companies in the industry!What You Will Do:- Collaborate with the eCommerce team to understand business requirements and translate them into technical solutions.- Design and implement custom Shopify themes and templates.- Build and maintain custom Shopify apps and plugins.- Integrate Shopify with other systems such as CRM, ERP, and payment gateways.- Ensure website performance and security are optimized.- Troubleshoot and resolve website issues.Heres what we are looking for:- 3+ years of experience with Shopify Liquid.- 2+ years of experience with a JS Framework (React, NextJS, VueJS, etc).- Proven track record in Shopify App development.- Shopify headless architecture experience (stores/apps) is desirable, but not mandatory.- Upper English level.How we do make your work (and your life) easier:- 100% remote work (from anywhere).- Excellent compensation in USD or your local currency if preferred- Hardware and software setup for you to work from home.- Flexible hours: create your own schedule.- Paid parental leaves, vacations, and national holidays.- Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.- Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.Apply now and become part of a global team where your unique talents can truly thrive!
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-work-from-home-shopify-engineer-ref-0176-en-aguascalientes-2F8573081BEEE1A961373E686DCF3405#lc=ListOffers-Score0-2
+Título: Barrendero con o sin experiencia / Nocturno y Vespertino - Zona Central de abastos Iztapalapa
+Empresa: Importante empresa del sector
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $9,000
+Descripción: Se busca barrendero para turnos nocturnos y vespertinos.Buscamos a una persona responsable, con experiencia en limpieza y mantenimiento de espacios comunes.El trabajo requiere desplazamientos cortos y uso de herramientas básicas de limpieza.Se valorará experiencia previa en limpieza, aunque no es imprescindible.Se ofrece contrato temporal con posibilidad de renovación.Se requiere disponibilidad para trabajar en horarios nocturnos y vespertinos.Se busca un perfil con actitud positiva y compromiso con el trabajo bien hecho.Se requiere puntualidad y capacidad para trabajar en equipo.Se ofrece ambiente de trabajo agradable y posibilidad de formación continua.Si tienes interés en mantener espacios limpios y cuidando los detalles, esta oportunidad puede ser para ti.Envía tu currículum con tus datos y experiencia previa en limpieza.Buscas un trabajo estable y con oportunidades de crecimiento profesional.Únete a nuestro equipo y contribuye a mantener nuestros entornos limpios y ordenados.
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrendero-con-o-sin-experiencia-nocturno-y-vespertino-zona-central-de-abastos-iztapalapa-en-iztapalapa-9BB6F3E7844AC9D961373E686DCF3405#lc=ListOffers-Score4-2
 
 --- Trabajo 4 ---
-Título: Trabajo Desde Casa Ingeniero Vue.js / Ref. 0255
-Empresa: BairesDev LLC
-Ubicación: Miguel Hidalgo, Ciudad de México DF
-Salario: $ 3,700
-Descripción: En BairesDev® llevamos 15 años liderando proyectos de tecnología para clientes como Google, Rolls-Royce y las startups más innovadoras de Silicon Valley. Actualmente, contamos con un equipo de 4000 profesionales conformado por el top 1% de la industria trabajando de forma remota desde más de 50 países.Al postularte a esta vacante, estarás dando el primer paso en un proceso que va más allá de lo convencional: Buscaremos conocer en profundidad tus habilidades, intereses y expectativas con el objetivo de realizar una búsqueda personalizada y encontrar el rol ideal para ti en BairesDev.Ingeniero Vue.js en BairesDevBuscamos Ingenieros de Vue.js para unirse a nuestro equipo de Desarrollo y participar en diferentes proyectos conformados por equipos multiculturales distribuidos por todo el mundo. Buscamos personas proactivas, jugadores de equipo apasionados por la programación en este lenguaje y orientados a brindar la mejor experiencia al usuario final.Principales responsabilidades:- Desarrollar aplicaciones de interfaz utilizando Vue.js y el ecosistema circundante.- Traducir con precisión las necesidades de los usuarios y las empresas en un código de interfaz funcional.- Desarrollar y probar IU para escritorio y sitios web receptivos.- Implementar pruebas automatizadas integradas en los flujos de trabajo de desarrollo y mantenimiento.- Crear códigos y bibliotecas reutilizables para uso futuro.- Estar actualizado con todos los desarrollos recientes en el espacio JavaScript y Vue.js.- Estar centrado en las actualizaciones de seguridad y los problemas encontrados con Vue.js y todas las dependencias del proyecto.- Realizar actualizaciones y mejoras necesarias para mantenerse al día con las mejores prácticas modernas de seguridad y desarrollo.- Contribuir con ideas e innovaciones, siempre que vea una oportunidad de mejora.- Trabajar en colaboración con nuestros equipos multidisciplinares.¿Qué Buscamos?:- 5+ años de experiencia en desarrollo de software.- 3+ años de experiencia con el desarrollo de Vue.Js.- Fuertes habilidades con el lenguaje JavaScript y frameworks (React, Angular, Ember, etc.).- Experta o avanzada experiencia en tecnologías front-end, arquitecturas de seguridad y experiencia de usuario.- Avanzado en el desarrollo y prueba de aplicaciones web basadas en web, basadas en web móvil y totalmente receptivas utilizando marcos de JavaScript como Jest, Mocha, Chai, Jasmine, etc.- Experiencia en integraciones de servicios (servicios web, sistemas CMS / Commerce, API de terceros, etc.).- Experiencia tanto en el consumo como en el diseño de API RESTful.- Nivel de inglés avanzado.Qué ofrecemos para que tu trabajo (y tu vida) seja mais fácil:- Trabajo 100% remoto: trabaja desde tu casa o donde quieras.- Compensación en USD o en tu moneda local, como prefieras, muy por encima de la media del mercado.- Hardware y software.- Horarios flexibles- Licencias por mater/paternidad, vacaciones y días festivos nacionales pagos.- Ambiente laboral multicultural e innovador, perfecto para hacer amigos, colaborar y aprender de las personas más talentosas del mundo.- Oportunidades de crecimiento y desarrollo profesional a través de mentorías y entrenamientos.¡Únete a nuestro equipo global!
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-trabajo-desde-casa-ingeniero-vuejs-ref-0255-en-miguel-hidalgo-410F255D92AE8E8661373E686DCF3405#lc=ListOffers-Score0-3
+Título: EG Barrendero Vespertino Central de Abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 8,000.00
+Descripción: Importante empresa de MANTENIMIENTO está en busca de tu talentoSolicita: BARRENDERO VESPERTINOOFRECEMOS:• Sueldo de hasta $8,000• Prestaciones de ley• PAGO SEMANALREQUISITOS:• SIN EXPERIENCIA• Escolaridad mínima• L a D• Horario fijoZONA DE TRABAJO: CENTRAL DE ABASTOS, IZTAPALAPA, CDMXSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-eg-barrendero-vespertino-central-de-abastos-en-iztapalapa-B6999002976CCE4B61373E686DCF3405#lc=ListOffers-Score4-3
 
 --- Trabajo 5 ---
-Título: Trabajo Desde Casa Desarrollador de Vue.js / Ref. 0255
-Empresa: BairesDev LLC
-Ubicación: Benito Juárez, Quintana Roo
-Salario: $ 3,700
-Descripción: En BairesDev® llevamos 15 años liderando proyectos de tecnología para clientes como Google, Rolls-Royce y las startups más innovadoras de Silicon Valley. Actualmente, contamos con un equipo de 4000 profesionales conformado por el top 1% de la industria trabajando de forma remota desde más de 50 países.Al postularte a esta vacante, estarás dando el primer paso en un proceso que va más allá de lo convencional: Buscaremos conocer en profundidad tus habilidades, intereses y expectativas con el objetivo de realizar una búsqueda personalizada y encontrar el rol ideal para ti en BairesDev.Desarrollador de Vue.js en BairesDevBuscamos Desarrollador de Vue.js para unirse a nuestro equipo de Desarrollo y participar en diferentes proyectos conformados por equipos multiculturales distribuidos por todo el mundo. Buscamos personas proactivas, jugadores de equipo apasionados por la programación en este lenguaje y orientados a brindar la mejor experiencia al usuario final.Actividades principales:- Desarrollar aplicaciones de interfaz utilizando Vue.js y el ecosistema circundante.- Traducir con precisión las necesidades de los usuarios y las empresas en un código de interfaz funcional.- Desarrollar y probar IU para escritorio y sitios web receptivos.- Implementar pruebas automatizadas integradas en los flujos de trabajo de desarrollo y mantenimiento.- Crear códigos y bibliotecas reutilizables para uso futuro.- Estar actualizado con todos los desarrollos recientes en el espacio JavaScript y Vue.js.- Estar centrado en las actualizaciones de seguridad y los problemas encontrados con Vue.js y todas las dependencias del proyecto.- Realizar actualizaciones y mejoras necesarias para mantenerse al día con las mejores prácticas modernas de seguridad y desarrollo.- Contribuir con ideas e innovaciones, siempre que vea una oportunidad de mejora.- Trabajar en colaboración con nuestros equipos multidisciplinares.¿Qué Buscamos?:- 5+ años de experiencia en desarrollo de software.- 3+ años de experiencia con el desarrollo de Vue.Js.- Fuertes habilidades con el lenguaje JavaScript y frameworks (React, Angular, Ember, etc.).- Experta o avanzada experiencia en tecnologías front-end, arquitecturas de seguridad y experiencia de usuario.- Avanzado en el desarrollo y prueba de aplicaciones web basadas en web, basadas en web móvil y totalmente receptivas utilizando marcos de JavaScript como Jest, Mocha, Chai, Jasmine, etc.- Experiencia en integraciones de servicios (servicios web, sistemas CMS / Commerce, API de terceros, etc.).- Experiencia tanto en el consumo como en el diseño de API RESTful.- Nivel de inglés avanzado.Qué ofrecemos para que tu trabajo (y tu vida) seja mais fácil:- Trabajo 100% remoto: trabaja desde tu casa o donde quieras.- Compensación en USD o en tu moneda local, como prefieras, muy por encima de la media del mercado.- Hardware y software.- Horarios flexibles- Licencias por mater/paternidad, vacaciones y días festivos nacionales pagos.- Ambiente laboral multicultural e innovador, perfecto para hacer amigos, colaborar y aprender de las personas más talentosas del mundo.- Oportunidades de crecimiento y desarrollo profesional a través de mentorías y entrenamientos.¡Únete a nuestro equipo global!
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-trabajo-desde-casa-desarrollador-de-vuejs-ref-0255-en-benito-juarez-7A14BBB695EF0B0C61373E686DCF3405#lc=ListOffers-Score0-4
+Título: EG Barrendero Nocturno Central de Abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante empresa de MANTENIMIENTO está en busca de tu talentoSolicita: BARRENDERO NOCTURNOOFRECEMOS:• Sueldo de hasta $10,000• Prestaciones de ley• PAGO SEMANALREQUISITOS:• SIN EXPERIENCIA• Escolaridad mínima• L a D• Horario fijoZONA DE TRABAJO: CENTRAL DE ABASTOS, IZTAPALAPA, CDMXSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-eg-barrendero-nocturno-central-de-abastos-en-iztapalapa-BFADA104A2B4F0B661373E686DCF3405#lc=ListOffers-Score4-4
 
 --- Trabajo 6 ---
-Título: Programador/a - Temporal
-Empresa: Caja Morelia Valladolid
-Ubicación: Morelia, Michoacán
-Salario: $ 7,209
-Descripción: Empresa Mexicana dedicada al servicio Financiero con 59 años de historia y presencia nacional, Caja Morelia Valladolid solicita personal.PROGRAMADOR TEMPORALOFECEMOS:-Sueldo base.-Prestaciones superiores a las de Ley.-Vales de despensa 8% del sueldo bruto mensual.-Fondo de ahorro del 13% del sueldo bruto mensual.-Seguro de vida.-Prima vacacional 100%.-30 días de aguinaldo desde el primer año.-Uniformes.-Opciones a becas.- Y mucho más...REQUISITOS:•Licenciatura o ingeniería Titulado en Informática, Sistemas Computacionales, TIC’s a fines.•Dominio de bases de datos SQL SERVER•Dominio de .NET C# o JAVA•Dominio Programación web (Html5, Maquetado CSS, Javascript, ECMAScript 2015+, VueJS2)•Dominio API Rest y SOAP (Net Core, nodeJS)•Dominio Programación móvil (Android, IOS, híbrido o nativo)•Manejo de Control de Versiones GIT.•Manejo de Plataforma JIRA & Confluence•Deseable Delphi 6Horario de trabajo: Lunes a Viernes de 8:30 am a 5 pm y Sábados de 8:30 am a 2 pmInteresados postularse por este medio
-URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programadora-temporal-en-morelia-4B58ECD317F4993161373E686DCF3405#lc=ListOffers-Score0-5
+Título: Barrenderos matutino y nocturno con o sin experiencia
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 8,000.00
+Descripción: Unete al mejor equipo de trabajo como BARRENDER@TURNOS DISPONIBLESmatutino: 9:00 am - 6:00 pmnocturno: 6pm - 6 amLunes a Sábado a Domingo descanso rolado entre semanaSalario: $2,000 semanales ( $2,500 NOCTURNO)+ prestaciones+uniformesSexo indistintoNo necesitas experienciaContratación inmediataZona de trabajo: Central de Abastos CDMX ( IZTAPALAPA)
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrenderos-matutino-y-nocturno-con-o-sin-experiencia-en-iztapalapa-11A7D3B0A60709DB61373E686DCF3405#lc=ListOffers-Score4-5
+
+--- Trabajo 7 ---
+Título: EG Barrendero Nocturno Central de Abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante empresa de MANTENIMIENTO está en busca de tu talentoSolicita: BARRENDERO NOCTURNOOFRECEMOS:• Sueldo de hasta $10,000• Prestaciones de ley• PAGO SEMANALREQUISITOS:• SIN EXPERIENCIA• Escolaridad mínima• L a D• Horario fijoZONA DE TRABAJO: CENTRAL DE ABASTOS, IZTAPALAPA, CDMXSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-eg-barrendero-nocturno-central-de-abastos-en-iztapalapa-C9417E1A9ACBCE5A61373E686DCF3405#lc=ListOffers-Score4-6
+
+--- Trabajo 8 ---
+Título: EG Barrendero Vespertino Central de Abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 8,000.00
+Descripción: Importante empresa de MANTENIMIENTO está en busca de tu talentoSolicita: BARRENDERO VESPERTINOOFRECEMOS:• Sueldo de hasta $8,000• Prestaciones de ley• PAGO SEMANALREQUISITOS:• SIN EXPERIENCIA• Escolaridad mínima• L a D• Horario fijoZONA DE TRABAJO: CENTRAL DE ABASTOS, IZTAPALAPA, CDMXSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-eg-barrendero-vespertino-central-de-abastos-en-iztapalapa-41FCE64536945C4661373E686DCF3405#lc=ListOffers-Score4-7
+
+--- Trabajo 9 ---
+Título: Barrendero - Central de abastos cdmx (iztapalapa)
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 5,437
+Descripción: Se solicita para Central de Abastos:Contratación inmediata- Barrenderos NocturnoHorario 5 pm a 5 amSueldo: 10 mil pesos mensuales- Barrenderos VespertinoHorario de 10 am a 7:00 pmSueldo: 8000 pesos mensualesBarrido de patios de la centralDocumentos: Acta, ine, curp, nss, constancia sat, comprobante domicilio, estado de cuenta bancario
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrendero-central-de-abastos-cdmx-iztapalapa-en-iztapalapa-001D869701974DF161373E686DCF3405#lc=ListOffers-Score4-8
+
+--- Trabajo 10 ---
+Título: Barrendero con turno fijo en la tarde - En Central de Abastos Iztapalapa
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante empresa dedicada al sector limpieza solicita Barrendero.Requisitos:- Mayor de 18 años- Experiencia no necesariaOfrecemos:- $8,000 mensuales netos (Pago semanal)- Prestaciones de ley- Trabajo de Lunes a Domingo con 1 descanso en la semana- Horario de 10:00 am a 7:00 pmZona de trabajo: Central de Abastos Iztapalapa.Actividades : acompañamiento de camionesLevantar basura de cajones de tolvaLevantar basura que cae de los camiones al momento de la cargaLevantar basura al paso del recorridoInteresados que cuenten con documentos (Acta de nacimiento, Cuenta de Banco, Comprobante de domicilio, INE, CURP, IMSS, RFC) postularse por éste medio, y un ejecutivo te contactará por whatsapp.
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrendero-con-turno-fijo-en-la-tarde-en-central-de-abastos-iztapalapa-en-iztapalapa-33BD941F42C610F461373E686DCF3405#lc=ListOffers-Score4-9
+
+--- Trabajo 11 ---
+Título: Barrendero Nocturno - En Central de Abastos Iztapalapa
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante empresa dedicada al sector limpieza solicita Barrendero para el turno Nocturno.Requisitos:- Mayor de 18 años- Experiencia no necesariaOfrecemos:- $10,000 mensuales netos (Pago semanal)- Prestaciones de ley- Trabajo de Lunes a Domingo con 1 descanso en la semana- Horario de 5:00 pm a 5:00 amZona de trabajo: Central de Abastos Iztapalapa.Actividades : acompañamiento de camionesLevantar basura de cajones de tolvaLevantar basura que cae de los camiones al momento de la cargaLevantar basura al paso del recorridoInteresados que cuenten con documentos (Acta de nacimiento, Cuenta de Banco, Comprobante de domicilio, INE, CURP, IMSS, RFC) postularse por éste medio, y un ejecutivo te contactará por whatsapp.
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrendero-nocturno-en-central-de-abastos-iztapalapa-en-iztapalapa-0F3EFD8ABAA464EE61373E686DCF3405#lc=ListOffers-Score4-10
+
+--- Trabajo 12 ---
+Título: Barrenderos / $2,000 a la semana Central de Abastos CDMX
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $2,000
+Descripción: SOLICITAMOS POR EXPANSION: BARRENDEROSZONA: IZTAPALAPA (CENTRAL DE ABASTOS)SUELDO $2,000 semanales libresPagos semanalesContarás con Prestaciones de LeyHorario: 9:00 am a 6:00 pmLunes a Domingo, 1 día de descanso entre semana
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-barrenderos-2000-a-la-semana-central-de-abastos-cdmx-en-iztapalapa-75FC0F398FF27B2C61373E686DCF3405#lc=ListOffers-Score4-11
+
+--- Trabajo 13 ---
+Título: Auxiliar limpieza - Central de Abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 8,000.00
+Descripción: Estamos en búsqueda de tu talento como:TENEMOS DISPONIBLES 2 VACANTES DE AUXILIAR DE LIMPIEZA:BARRENDEROTurno: Nocturno (De 6:00PM a 6:00AM)Sueldo: $10,000 mensualesBARRENDEROTurno: Vespertino (De 10:00AM a 7:00AM)Sueldo: $8,000 mensuales¡NO NECESITAS EXPERIENCIA! - INGRESO INMEDIATOSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-limpieza-central-de-abastos-en-iztapalapa-37C5E76C32BA148461373E686DCF3405#lc=ListOffers-Score3-12
+
+--- Trabajo 14 ---
+Título: Auxiliar de Limpieza sin Experiencia para Iztapalapa Turno Nocturno - $10,000 mensual Contratación el mismo dia
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $10,000
+Descripción: "Importante marca de Limpieza está en busca de tu talento"Solicita Axiliar de limpieza (Barrendero) sin ExperienciaRequisitos:Tener disponibilidad de HorarioBuena ActitudLunes a Domingo con descanso entre semanaEdad: entre 18 a 55 añosNo contar con Infonavit de preferenciaSin tatuajes o perforaciones de preferenciaZona de trabajo: IztapalapaOFRECEMOS:Sueldo base Neto semana $2500 semanalNocturno 5pm a 5am $2500 semanalesPago SemanalVacante FijaSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-limpieza-sin-experiencia-para-iztapalapa-turno-nocturno-10000-mensual-contratacion-el-mismo-dia-en-iztapalapa-F37FE05104C1EFD961373E686DCF3405#lc=ListOffers-Score3-13
+
+--- Trabajo 15 ---
+Título: Auxiliar de Limpieza sin Experiencia para Iztapalapa Turno Intermedio - $8000 mensual Contratación el mismo dia
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $8000
+Descripción: "Importante marca de Limpieza está en busca de tu talento"Solicita Axiliar de limpieza (Barrendero) sin ExperienciaRequisitos:Tener disponibilidad de HorarioBuena ActitudLunes a Domingo con descanso entre semana 10 am a 7pmEdad: entre 18 a 55 añosNo contar con Infonavit de preferenciaSin tatuajes o perforaciones de preferenciaZona de trabajo: IztapalapaOFRECEMOS:Sueldo base Neto semanal $2000 semanalIntermedio 10am a 7pm $2000 semanalesPago SemanalVacante FijaSi estas interesada/o postúlate con tu CV actualizado
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-limpieza-sin-experiencia-para-iztapalapa-turno-intermedio-8000-mensual-contratacion-el-mismo-dia-en-iztapalapa-21DBF84AE98E8B6161373E686DCF3405#lc=ListOffers-Score3-14
+
+--- Trabajo 16 ---
+Título: Auxiliares de limpieza contratación inmediata - Iztapalapa Central de abastos
+Empresa: Idea Market Solutions
+Ubicación: Iztapalapa, Ciudad de México DF
+Salario: $ 10,000.00
+Descripción: Importante empresa de residuos está en busca de tu talentoSolicitamos personal de limpieza (diversas áreas)BarrenderosAuxiliares de limpieza de pasillosLavadores de camionesZONA IZTAPALAPAOFRECEMOS:Sueldo semanal (dependiendo de la posición)Horario dependiendo de la operaciónPagos semanalesRequisitos:Disponibilidad de horarioExperiencia no necesaria o mínimaZona de trabajoCENTRAL DE ABASTOS IZTAPALAPASi estas interesada/o postúlate con tu CV actualizado o marca al 5580109495
+URL: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliares-de-limpieza-contratacion-inmediata-iztapalapa-central-de-abastos-en-iztapalapa-65BB4A5C627E4E3761373E686DCF3405#lc=ListOffers-Score3-15
