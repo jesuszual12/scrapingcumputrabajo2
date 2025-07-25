@@ -24,6 +24,7 @@ form.addEventListener("submit", async function (e) {
     });
 
     const data = await response.json();
+    console.log(data);
 
     if (data.success) {
       window.location.href = "../tabla/index.html";
