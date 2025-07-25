@@ -30,19 +30,20 @@ app.post("/buscar", async (req, res) => {
     console.log(`:::::::: Buscando trabajos de "${cargo}" ::::::::::`);
 
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       slowMo: 300,
     });
 
     const page = await browser.newPage();
     
+    /*
     await page.setUserAgent(
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     );
     await page.evaluateOnNewDocument(() => {
       Object.defineProperty(navigator, "webdriver", { get: () => false });
     });
-
+    */
 
     let trabajos = [];
     let pagina = 1;

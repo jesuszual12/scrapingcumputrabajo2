@@ -1,4 +1,3 @@
-
 const form = document.getElementById("searchForm");
 const input = document.getElementById("searchInput");
 const result = document.getElementById("resultSection");
@@ -18,17 +17,17 @@ form.addEventListener("submit", async function (e) {
   loadingSpinner.classList.remove("hidden");
 
   try {
-    await fetch("http://localhost:3000/buscar", {
+    const response = await fetch("http://localhost:3000/buscar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ cargo }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.success) {
-          window.location.href = "../tabla/index.html";
-        }
-      });
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      window.location.href = "../tabla/index.html";
+    }
   } catch (error) {
     console.error(error);
     loadingSpinner.classList.add("hidden");

@@ -170,7 +170,7 @@ function mostrarTrabajosCercanos(latUsuario, lonUsuario) {
           match.lng
         );
 
-        if (distancia <= 20) {
+        if (distancia <= 20000) {
           L.marker([match.lat, match.lng])
             .addTo(mapa)
             .bindPopup(
@@ -182,10 +182,6 @@ function mostrarTrabajosCercanos(latUsuario, lonUsuario) {
             );
         }
       }
-    } else {
-      L.marker([20.6767, -103.3475])
-        .addTo(mapa)
-        .bindPopup("Trabajo sin ubicación precisa");
     }
   });
 }
