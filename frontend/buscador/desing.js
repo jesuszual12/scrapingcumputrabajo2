@@ -24,7 +24,6 @@ form.addEventListener("submit", async function (e) {
     });
 
     const data = await response.json();
-    console.log(data);
 
     if (data.success) {
       window.location.href = "../tabla/index.html";
@@ -32,6 +31,7 @@ form.addEventListener("submit", async function (e) {
   } catch (error) {
     console.error(error);
     loadingSpinner.classList.add("hidden");
+    
     result.innerHTML = `<span class="text-danger">Error al buscar trabajos.</span>`;
   }
 });

@@ -30,20 +30,27 @@ app.post("/buscar", async (req, res) => {
     console.log(`:::::::: Buscando trabajos de "${cargo}" ::::::::::`);
 
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 300,
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-zygote",
+        "--disable-dev-shm-usage",
+        "--disable-accelerated-2d-canvas",
+        "--disable-features=site-per-process",
+        "--disable-site-isolation-trials",
+        "--disable-web-security",
+        "--disable-features=IsolateOrigins,site-per-process",
+        "--blink-settings=imagesEnabled=false",
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      ],
+      dumplo: true,
     });
 
     const page = await browser.newPage();
-    
-    /*
-    await page.setUserAgent(
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    );
-    await page.evaluateOnNewDocument(() => {
-      Object.defineProperty(navigator, "webdriver", { get: () => false });
-    });
-    */
 
     let trabajos = [];
     let pagina = 1;
@@ -52,7 +59,18 @@ app.post("/buscar", async (req, res) => {
       while (true) {
         const url = pagina === 1 ? baseURL : `${baseURL}?p=${pagina}`;
 
-        await page.goto(url, { waitUntil: "domcontentloaded" });
+        await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
+
+
+        try {
+          await page.waitForSelector("article a", { timeout: 15000 });
+        } catch (selectorError) {
+          console.warn(`Selector "article a" no encontrado en ${url} después de 15 segundos.`);
+          const pageContent = await page.content();
+          console.log("Contenido de la página:", pageContent);
+          break;
+        }
+
 
         const enlaces = await page.$$eval("article a", (links) =>
           Array.from(
