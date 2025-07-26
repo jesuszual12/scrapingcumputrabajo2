@@ -1,17 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("JS cargado correctamente");
-
   const input = document.getElementById("searchInput");
   const result = document.getElementById("resultSection");
   const loadingSpinner = document.getElementById("loadingSpinner");
-  const submitBtn = document.getElementById("submitBtn");
+  const form = document.getElementById("searchForm");
 
-  submitBtn.addEventListener("click", async () => {
-    console.log("Botón clickeado");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
 
     const cargo = input.value.trim();
     if (!cargo) {
-      result.innerHTML = '<span class="text-danger">Por favor, ingresa el cargo o categoría.</span>';
+      result.innerHTML =
+        '<span class="text-danger">Por favor, ingresa el cargo o categoría.</span>';
       return;
     }
 
@@ -29,7 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (response.ok) {
         // Redirige usando ruta absoluta para Live Server
-        window.location.replace(`${window.location.origin}/frontend/tabla/index.html`);
+        window.location.replace(
+          `${window.location.origin}/frontend/tabla/index.html`
+        );
       } else {
         result.innerHTML = `<span class="text-danger">Error en la búsqueda.</span>`;
       }
