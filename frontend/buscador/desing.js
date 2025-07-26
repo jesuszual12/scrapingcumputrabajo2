@@ -4,6 +4,7 @@ const result = document.getElementById("resultSection");
 const loadingSpinner = document.getElementById("loadingSpinner");
 
 form.addEventListener("submit", async function (e) {
+  console.log("Formulario enviado")
   e.preventDefault();
   const cargo = input.value.trim();
 
@@ -23,15 +24,21 @@ form.addEventListener("submit", async function (e) {
       body: JSON.stringify({ cargo }),
     });
 
-    const data = await response.json();
-
-    if (data.success) {
-      window.location.href = "../tabla/index.html";
+    try {
+      
+    if (response.status ==200) {
+      console.log('Estoy en el if de la respuesta')
+      console.log("res", response)
+      // window.location.href = "../tabla/index.html";
     }
+    } catch (error) {
+      console.log("Error en el try")
+    }
+
+
   } catch (error) {
     console.error(error);
     loadingSpinner.classList.add("hidden");
-    
     result.innerHTML = `<span class="text-danger">Error al buscar trabajos.</span>`;
   }
 });

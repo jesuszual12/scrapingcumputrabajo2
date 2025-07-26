@@ -138,7 +138,7 @@ app.post("/buscar", async (req, res) => {
       console.log(`se encontraron: ${trabajos.length} trabajos`);
       console.log("Fin del scrapping");
       await exportAll(trabajos, `trabajos`);
-      res.status(200).json({ success: true });
+      return res.status(200).json({ success: true });
     } catch (error) {
       res.status(500).json({ success: false });
       console.error("❌ Error durante el scraping:", error);
