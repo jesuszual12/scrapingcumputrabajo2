@@ -13,7 +13,8 @@
       <h2 class="text-3xl font-extrabold text-center text-blue-600 mb-6">
         <i class="bi bi-briefcase-fill"></i> CompuTrabajo
       </h2>
-      <form id="searchForm" autocomplete="off" class="space-y-4">
+      <!-- Eliminamos el submit clásico y usamos un div contenedor -->
+      <div id="searchContainer" class="space-y-4">
         <div class="flex items-center bg-white rounded-lg shadow-sm border border-gray-300 focus-within:ring-2 focus-within:ring-blue-300">
           <span class="px-4 text-blue-600">
             <i class="bi bi-search"></i>
@@ -24,11 +25,11 @@
             placeholder="Cargo o categoría"
             class="w-full py-3 px-2 focus:outline-none rounded-r-lg"
           />
-          <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-r-lg transition">
+          <button id="submitBtn" type="button" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-r-lg transition">
             Buscar Empleo
           </button>
         </div>
-      </form>
+      </div>
 
       <!-- Animación de carga -->
       <div id="loadingSpinner" class="mt-6 text-center hidden">

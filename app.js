@@ -115,12 +115,12 @@ app.post("/buscar", async (req, res) => {
     }
 
     console.log(`Se encontraron: ${trabajos.length} trabajos`);
-    await exportAll(trabajos, `trabajos`);
-
     await browser.close();
-
-    // SOLO AQUÍ respondes
+    
+    
     res.status(200).json({ success: true });
+    
+    await exportAll(trabajos, `trabajos`);
   } catch (error) {
     console.error("❌ Error durante el scraping:", error);
     res.status(500).json({ success: false });
