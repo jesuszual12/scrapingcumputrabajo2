@@ -4,7 +4,6 @@ const result = document.getElementById("resultSection");
 const loadingSpinner = document.getElementById("loadingSpinner");
 
 form.addEventListener("submit", async function (e) {
-  console.log("Formulario enviado")
   e.preventDefault();
   const cargo = input.value.trim();
 
@@ -24,15 +23,11 @@ form.addEventListener("submit", async function (e) {
       body: JSON.stringify({ cargo }),
     });
 
-    try {
-      
-    if (response.status ==200) {
-      console.log('Estoy en el if de la respuesta')
-      console.log("res", response)
-      // window.location.href = "../tabla/index.html";
-    }
-    } catch (error) {
-      console.log("Error en el try")
+    const data = response.json();
+    alert(data.success)
+    if (data.success) {
+      alert("seras redirigido....")
+      window.location.href = "../tabla/index.html";
     }
 
 
