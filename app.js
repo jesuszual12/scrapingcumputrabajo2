@@ -1,5 +1,6 @@
 const puppeteer = require("puppeteer");
 const exportAll = require("./src/js/exportAll");
+const path = require("path")
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -8,10 +9,14 @@ const cors = require("cors");
 const app = express();
 const port = 3000;
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL,
+  credentials: true
+}));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use("/data", express.static(path.join(process.cwd(), "data")));
 
 app.get("/", (req, res) => {
   res.status(200).send({
@@ -23,7 +28,7 @@ app.post("/buscar", async (req, res) => {
   try {
     const { cargo } = req.body;
 
-    const baseURL = `https://mx.computrabajo.com/trabajo-de-${encodeURIComponent(
+    const baseURL = `${process.env.COMPUTRABAJO}${encodeURIComponent(
       cargo
     )}`;
 
@@ -127,6 +132,8 @@ app.post("/buscar", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.  
+
+app.listen(process.env.PORT || port, () => {
   console.log(`Server running in http://localhost:${port}`);
 });
