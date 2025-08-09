@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const port = 3000;
+const PORT =  process.env.PORT || 3000;
 
 app.use(cors({
   origin: process.env.FRONTEND_URL,
@@ -132,8 +132,6 @@ app.post("/buscar", async (req, res) => {
   }
 });
 
-app.  
-
-app.listen(process.env.PORT || port, () => {
-  console.log(`Server running in http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on port: ${PORT}`);
 });
