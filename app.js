@@ -132,6 +132,11 @@ app.post("/buscar", async (req, res) => {
   }
 });
 
+app.get("/download/json", (req, res) => {
+  const filePath = path.join(process.cwd(), "data", "scraped", "trabajos.json");
+  res.download(filePath, "trabajos.json"); // Fuerza la descarga
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port: ${PORT}`);
 });
